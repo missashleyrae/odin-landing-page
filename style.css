@@ -27,11 +27,11 @@
 
 .right-hero,
 .left-hero {
-    max-width:280px;
+    max-width:400px;
 }
 
 .right-hero img {
-    width:280px;
+    width:300px;
     height:auto;
     box-shadow:3px 3px #686d64;
     border-radius:5px;
@@ -101,6 +101,7 @@ a{
 }
 .content {
     display:flex;
+    flex-wrap:wrap;
     background:#EFEFE9;
     justify-content:space-between;
     padding-left:200px;
@@ -172,8 +173,9 @@ a{
     align-items:center;
     gap:70px;
     background:#959D90;
-    height:200px;
-    flex-basis: 700px;
+    height:180px;
+    flex-basis: 800px;
+    min-width:650px;
     border-radius:5px;
     box-shadow:3px 3px #c7c7c1;
 
